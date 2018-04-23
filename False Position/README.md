@@ -4,25 +4,25 @@ of certainty as dictated by a maximum approximate relative error. The function w
 error or once the set amount of iterations has been reached.
 
 ## Inputs
-*```func``` - a mathematical function formatted so that the variable can be plugged into using matlab,
+* ```func``` - a mathematical function formatted so that the variable can be plugged into using matlab,
 ie. ```f = @(x) x^2 + 18*x;```
 
-*```xl``` - the lower bound of an interval in which the root of the function resides
+* ```xl``` - the lower bound of an interval in which the root of the function resides
 
-*```xu``` - the upper bound of an interval in which the root of the function resides
+* ```xu``` - the upper bound of an interval in which the root of the function resides
 
-*```es``` - the desired maximum error (default is set to 0.0001%)
+* ```es``` - the desired maximum error (default is set to 0.0001%)
 
-*```maxiter``` - the maximum number of iterations (default is set to 200 iterations)
+* ```maxiter``` - the maximum number of iterations (default is set to 200 iterations)
 
 ## Outputs
-*```root``` - the location at which the function is equal to zero within a certain error
+* ```root``` - the location at which the function is equal to zero within a certain error
 
-*```fx``` - the function evaluated at the root (this should be approximately zero)
+* ```fx``` - the function evaluated at the root (this should be approximately zero)
 
-*```ea``` - the approximate error of the root guess
+* ```ea``` - the approximate error of the root guess
 
-*```iter``` - the number of iterations that led to this root guess
+* ```iter``` - the number of iterations that led to this root guess
 
 ## Method
 This function makes a root approximation by implementing iterations of the equation:
