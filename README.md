@@ -15,5 +15,11 @@ an odd number of intervals in a dataset, the trapezoidal rule will be applied to
 estimation.
 
 ## luFactor.m
+This function is used to determine the Upper Triangle and Lower Triangle factorization of a square matrix 
+using partial pivoting. This breaks down a matrix into simpler parts in order to solve systems of
+equations. While this program does not solve the system, its outputs can easily be uses to do so
 
 ## falsePosition.m
+This function is used to estimate the root of a function (where the function's dependent variable is equal to zero)
+to a desired degree of certainty as dictated by a maximum approximate relative error. The function will iterate until either 
+the error is bellow the desired error or once the set amount of iterations has been reached.
