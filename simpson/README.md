@@ -4,12 +4,12 @@ simpson's 1/3 rule compounded over the amount of intervals. If there is an odd n
 be applied to the last interval of the estimation.
 
 ## Inputs
-*```X``` - a vector of equally spaced values relating to the independent variable
+* ```X``` - a vector of equally spaced values relating to the independent variable
 
-*```y``` - a vector the same length as ```x``` containing values relating to each respective value in ```x``` ie. y = f(```x```) where f is some function.
+* ```y``` - a vector the same length as ```x``` containing values relating to each respective value in ```x``` ie. y = f(```x```) where f is some function.
 
 ## Outputs
-*```I``` - The numerical estimation for the integral of the dataset 
+* ```I``` - The numerical estimation for the integral of the dataset 
 
 ## Method
 The numerical estimation for integration is found by the compounding of the Simpson's 1/3 equation:
