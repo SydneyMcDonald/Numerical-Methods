@@ -4,14 +4,14 @@ breaks down a matrix into simpler parts in order to solve systems of equations. 
 can easily be uses to do so.
 
 ## Inputs
-*```A``` - A square matrix (the coefficient matrix of a system of equasions such as ```[A]{x}={b}```)
+* ```A``` - A square matrix (the coefficient matrix of a system of equasions such as ```[A]{x}={b}```)
 
 ## Outputs
-*```U``` - A square Upper Triangular matrix found by performing Gaussian Elimination on matrix ```A```
+* ```U``` - A square Upper Triangular matrix found by performing Gaussian Elimination on matrix ```A```
 
-*```L``` - A square lower Triangular matrix shuch that ```[L][U]=[P][A]``` where ```P``` is the pivot matrix
+* ```L``` - A square lower Triangular matrix shuch that ```[L][U]=[P][A]``` where ```P``` is the pivot matrix
 
-*```P``` - A square pivot matrix found by switching rows of an identity matrix corresponding to row switches performed on U
+* ```P``` - A square pivot matrix found by switching rows of an identity matrix corresponding to row switches performed on U
 
 ## Method
 Gaussian Elimination with pivoting eliminates variables from the coefficient matrix so that the matrix is in upper triangular form
