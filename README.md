@@ -8,8 +8,8 @@ In this class we discussed a number of numerical methods for finding derivatives
 factors related to data collection and analysis. We used these codes in the context of systems of equations
 representing physical systems to further our understanding of problem solving.
 
-##Simpsons.m
+## Simpsons.m
 
-##luFactor.m
+## luFactor.m
 
-##falsePosition.m
+## falsePosition.m
