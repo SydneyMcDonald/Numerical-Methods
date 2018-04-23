@@ -9,6 +9,10 @@ factors related to data collection and analysis. We used these codes in the cont
 representing physical systems to further our understanding of problem solving.
 
 ## Simpsons.m
+This function is used to numerically estimate the integral of given "x" and "y" values for any given,
+equally spaced data set using the simpson's 1/3 rule compounded over the amount of intervals. If there is
+an odd number of intervals in a dataset, the trapezoidal rule will be applied to the last interval of the 
+estimation.
 
 ## luFactor.m
 
