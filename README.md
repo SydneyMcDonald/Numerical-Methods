@@ -8,6 +8,10 @@ In this class we discussed a number of numerical methods for finding derivatives
 factors related to data collection and analysis. We used these codes in the context of systems of equations
 representing physical systems to further our understanding of problem solving.
 
+## Heun.m
+This function uses a numerical method to approximate the solutions to first-order, ordinary differential equations and plot these 
+approximations.
+
 ## Simpsons.m
 This function is used to numerically estimate the integral of given "x" and "y" values for any given,
 equally spaced data set using the simpson's 1/3 rule compounded over the amount of intervals. If there is
